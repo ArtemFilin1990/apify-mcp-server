@@ -1,11 +1,15 @@
 {
-    "extends": "./tsconfig.json",
-    "include": [
-        "evals",
-        "scripts",
-        "src",
-        "test",
-        "tests",
-        "vitest.config.ts"
-    ],
+  "extends": "./tsconfig.json",
+  "include": [
+    "evals",
+    "scripts",
+    "src",
+    "test",
+    "tests",
+    "vitest.config.ts"
+  ],
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  }
 }
